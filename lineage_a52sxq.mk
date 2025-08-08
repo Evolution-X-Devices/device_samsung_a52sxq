@@ -31,6 +31,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Build Flags
+WITH_GMS := true
+TARGET_USES_MINI_GAPPS := true
+
 # NFC
 TARGET_HAVE_SEC_NFC := true
 
