@@ -34,6 +34,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Build Flags
+WITH_GMS := true
+TARGET_USES_MINI_GAPPS := true
+
 # NFC
 TARGET_HAVE_SEC_NFC := true
 
