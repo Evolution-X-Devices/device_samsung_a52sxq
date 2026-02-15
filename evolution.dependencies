@@ -8,5 +8,11 @@
     "repository": "vendor_samsung_a52sxq",
     "target_path": "vendor/samsung/a52sxq",
     "branch": "bka"
+  },
+  {
+    "remote": "github-non-los",
+    "repository": "anhdat1024/packages_apps_GameBar",
+    "target_path": "packages/apps/GameBar",
+    "branch": "16.0"
   }
 ]
